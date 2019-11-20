@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="small_mulch_logo.png"/>
+        <title>
+            Small Mulch
+        </title>
+        <link href = "style.css" rel = "stylesheet">
+        <script>
+            function page1() {
+                location.replace("small_mulch.html");
+            }
+            function page2() {
+                location.replace("allies.html");
+            }
+            function page3() {
+                location.replace("enemies.html");
+            }
+            function page4(){
+                location.replace("powers.html");
+            }
+            function hover(){
+                let image = document.querySelector("#symbol");
+                image.src = "small_mulch_logo2.png";
+            }
+            function notHover(){
+                let image = document.querySelector("#symbol");
+                image.src = "small_mulch_logo.png";
+            }
+
+        </script>
+    </head>
+    <body>
+        <header onmouseover="hover()" onmouseout="notHover()" style="text-align: center" type="button" onclick="page1()">
+            <h1>
+                <section class="title">Small
+                <img id = "symbol"  src="small_mulch_logo.png"; alt=" " height="40" width="40">
+                Mulch</section>
+            </h1>
+            <h3>The greatest superhero of all time</h3>
+        </header>
+
+        <section class = "tab">
+            <button type="button" onclick="page1()">Home</button><button type="button" onclick="page4()">Powers</button><button type="button" onclick="page2()">Allies</button><button class="clicked-button" type="button" onclick="page3()">Enemies</button>
+        </section>
+
+        <br><br><br>
+
+        <h2>Enemies:</h2>
+        <section class = "catagory">
+            <h3>Uno Reverse Card</h3>
+            <section class = "subcatagory">
+                <p>-Strengths: Can reverse actions done to him</p>
+                <p>-Weaknesses: Can't handle paradoxes</p>
+                <p>-Appearance: An uno reverse card </p>
+            </section><br>
+
+                <h3>Dr. Gingivitis</h3>
+                <section class = "subcatagory">
+                <p>-Strengths: Can poison people with his bad breath</p>
+                <p>-Weaknesses: Breath mints and those who do not have noses</p>
+                <p>-Appearance: A retainer case</p>
+            </section><br>
+
+            <h3>Lengthy Log</h3>
+            <section class = "subcatagory">
+                <p>-Strengths: Can crush things by rolling on them and can grow as large as he wants</p>
+                <p>-Weaknesses: Is addicted to caffine and cannot go 12 hours without it without birsting into tiny splinters</p>
+                <p>-Appearance: A log</p>
+                <p><b>He is the archenemy of Small Mulch.</b></p>
+            </section><br>
+
+            <h3>Papaya Juice</h3>
+            <section class = "subcatagory">
+                <p>-Strengths: Can trap things in nets of stickiness</p>
+                <p>-Weaknesses: Milk (both powdered and unpowdered)</p>
+                <p>-Appearance: Papaya juice</p>
+            </section><br>
+
+            <h3>The Motherboard</h3>
+            <section class = "subcatagory">
+                <p>-Strengths: Smashes things to bits with lasers</p>
+                <p>-Weaknesses: Every time she uses her powers she heats up a little. If she overheats, she melts.</p>
+                <p>-Appearance: A raspberry pi computer</p>
+            </section><br>
+
+            <h3>Vice Grip</h3>
+            <section class = "subcatagory">
+                <p>-Strengths: Can crush things with superstrength </p>
+                <p>-Weaknesses: When his clamp is glued closed, he can't use it and can do no damage</p>
+                <p>-Appearance: A clamp</p>
+            </section><br>
+        </section>
+
+        <p><br><b>Characters created by John H, Erin, Cameron, Lauren, Tony, Daniel B, Deborah, and Logan.</b></p>
+    </body>
+</html>
