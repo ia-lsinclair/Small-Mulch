@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="small_mulch_logo.png"/>
+        <title>
+            Small Mulch
+        </title>
+        <link href = "style.css" rel = "stylesheet">
+        <script>
+            function page1() {
+                location.replace("small_mulch.html");
+            }
+            function page2() {
+                location.replace("allies.html");
+            }
+            function page3() {
+                location.replace("enemies.html");
+            }
+            function page4(){
+                location.replace("powers.html");
+            }
+            function hover(){
+                let image = document.querySelector("#symbol");
+                image.src = "small_mulch_logo2.png";
+            }
+            function notHover(){
+                let image = document.querySelector("#symbol");
+                image.src = "small_mulch_logo.png";
+            }
+
+        </script>
+    </head>
+    <body>
+        <header onmouseover="hover()" onmouseout="notHover()" style="text-align: center" type="button" onclick="page1()">
+            <h1>
+                <section class="title">Small
+                <img id = "symbol"  src="small_mulch_logo.png"; alt=" " height="40" width="40">
+                Mulch</section>
+            </h1>
+            <h3>The greatest superhero of all time</h3>
+        </header>
+
+        <section class = "tab">
+            <button type="button" onclick="page1()">Home</button><button class="clicked-button" type="button" onclick="page4()">Powers</button><button type="button" onclick="page2()">Allies</button><button type="button" onclick="page3()">Enemies</button>
+        </section>
+
+        <br><br><br>
+
+        <h2>Powers:</h2>
+        <section class = "catagory">
+            <p>-Changing the size of objects</p>
+            <p>-Strong morale ethics</p>
+            <p>-And of course, as all mulch have to have, great teamwork skills</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">More info</a>
+        </section>
+
+        <p><br><b>Characters created by John H, Erin, Cameron, Lauren, Tony, Daniel B, Deborah, and Logan.</b></p>
+    </body>
+</html>
