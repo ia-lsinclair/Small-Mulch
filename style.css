@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+.catagory{
+    border-left: 5px solid lightgray;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.subcatagory{
+    border-left: 5px solid grey;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: grey;
+}
+.tab {
+    background:gray;
+}
+.title{
+    font-family: impact, fantasy;
+    font-size: 50;
+
+}
+a{
+    color: green;
+}
+button{
+    background-color: gray;
+    border: none;
+    color: white;
+    font-size: large;
+    padding: 10px 35px;
+}
+button:hover{
+    background-color: rgb(68,145,66);
+    color: rgb(177,260,151);
+}
+header:hover{
+    color:green;
+
+}
+.clicked-button{
+    background-color:white;
+    color: gray;
+}
+.clicked-button:hover{
+    background-color:rgb(177,260,151);
+    color:green;
+}
